@@ -7,7 +7,7 @@ import pycaret.classification as cl
 import pycaret.regression as re
 import pycaret.clustering as ct
 with st.sidebar:
-    st.image('Machine-Learning-No-Background.webp',width=200)
+    st.image('./Machine-Learning-No-Background.webp',width=200)
     st.title("Auto stream ml")
     choice =st.radio('choice',['Upload','Profling','ML','Download'])
     st.info('Build your own ML model')
