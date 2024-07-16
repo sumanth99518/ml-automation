@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 import os
+import pycaret.classification as cl
 from ydata_profiling import ProfileReport
 from streamlit_pandas_profiling import st_profile_report
-import pycaret.classification as cl
+
 import pycaret.regression as re
-import pycaret.clustering as ct
 with st.sidebar:
     st.image('./Machine-Learning-No-Background.webp',width=200)
     st.title("Auto stream ml")
